@@ -35,6 +35,28 @@
     <input type="submit">
    </p>
       </fieldset>
+
+   <!-- drop-down and list box-->
+<fieldset>
+         <legend>Software and Ports</legend>
+         <p>
+            <label for="os">Operating System:</label>
+         <select id="os" name="os">
+             <option value="windows11">Windows 11</option>
+             <option value="Ubuntu">Linux (Ubuntu)</option>
+             <option value="None">No OS</option>
+         </select><br>
+         <label for="ports">Ports needed (hold Ctrl or Command to pick more than one):</label>
+         <select id="ports" name="ports" size="4" multiple>
+             <option value="usbc">USB-C</option>
+             <option value="hdmi">HDMI</option>
+             <option value="ethernet">Ethernet</option>
+             <option value="audio">Audio</option>
+             <option value="displayport">DisplayPort</option>
+             <option value="thunderbolt">Thunderbolt</option>
+         </select><br>
+         </p>
+      </fieldset>
   </form>
 
   <!-- ==========================================================
